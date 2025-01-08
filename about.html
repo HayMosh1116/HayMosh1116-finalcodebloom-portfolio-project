@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#"><img src="haywhylogo.png" alt="logo" ></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+    <!-- sub header section -->
+     <section class="sub-header" id="sub-header">
+        <h1>About <span>Me</span></h1> 
+     </section>
+   
+     <!--About Session-->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="hayprofile-removebg-preview.png" alt="">
+        </div>
+        <div class="about-text">
+            <h4><span>I'm a </span>Tenacious Developer</h4>
+            <p>Who love the thrill of transforming ideas into reality, combining creativity and technical expertise to craft innovative solutions. I am deeply passionate about building efficient, user-friendly, and visually compelling applications that empower businesses and delight users. <br><br>
+
+                I enjoy tackling complex challenges and solving real-world problems, whether it’s improving performance, enhancing user experiences, or overcoming technical obstacles. With every project, I’m driven by the opportunity to breathe life into concepts, turning vision into impactful digital products that make a difference. <br><br>
+                
+                For me, development is more than just coding—it’s about creating seamless, meaningful experiences that bring value to both clients and users. I thrive on continuous learning and growth, always striving to push boundaries and explore innovative approaches to design and functionality. <br><br>
+            <a href="" class="btn">Let's Talk</a>
+        </div>
+     </section>
+
+     <sections class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Why <span>Me?</span></h2>
+        </div>
+
+        <div class="others-image">
+            <img src="Hay-logo-removebg-preview.png" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="others-text">
+            <h3><span>As</span> a Design Technologist and A Web development trainer</h3>
+            <p>
+               - I bring a unique perspective to my work, combining technical expertise with creative vision.<br><br>
+               - I help people achieve their full potential and make their dreams a reality. <br><br>
+               - I understand that each person and each project is unique, and i tailor my approach to meet individual needs.
+            </p>
+        </div>
+
+        <div>
+            <a href="" class="btn">Hire Me</a> <br><br>
+        </div>
+     </sections>
+
+           <!-- footer section -->
+        <footer class="footer">
+            <div class="attribution">
+                <p>Design with <i class='bx bx-laptop'></i> By Haywhy</p>
+            </div>
+            <div class="move-up">
+                <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <!-- Js for toggle menu -->
+         <script>
+            var navMenu = document.getElementById('navMenu');
+            function openMenu() {
+                navMenu.style.right = "0";
+            }
+
+            function closeMenu() {
+                navMenu.style.right = "-200px";
+            }
+         </script>
+</body>
+</html>

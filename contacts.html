@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#"><img src="haywhylogo.png" alt="logo" ></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+    <!-- sub header section -->
+     <section class="sub-header" id="sub-header">
+        <h1>Contact <span>ME</span></h1>
+     </section>
+   
+     <!-- contact section -->
+      <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4865081802386!2d3.2578484730690485!3d6.586286022434506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b900a5655dd0d%3A0x85c2564ce59b0667!2s5%20Alhaji%20Adegoke%20St%2C%20Idimu%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1734079312751!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+     <section class="contact" id="contact">
+        <div class="contact-text">
+            <h4 class="dot">"Reach out today—I’d love to help bring your web project to life!"
+            </h4>
+            <p>Got an idea? Need a developer? Or just want to chat about tech? Drop me a message—I’d love to hear from you!
+                Don’t be shy! Reach out if you have questions, projects, or even just to say hi!</p>
+                <div class="list">
+                    <li><a href="#">2348094800071</a></li>
+                    <li><a href="#">ibrahimfridaous11@gmail.com</a></li>
+                    <li><a href="#">Like, Share & Subscribe</a></li>
+                </div>
+                <div class="icons">
+                    <a href="https://www.facebook.com/share/1H3xeDJ2mz/?mibextid=LQQJ4d
+                    "><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/haywhycash1116?igsh=MXg5ajg1ZjI1bTA2Zw%3D%3D&utm_source=qr"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://youtube.com/@haywhycash1116?si=L8wSVPB5gh-xD4CG"><i class='bx bxl-youtube'></i></a>
+                    <a href="https://wa.link/wdjweg"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://twitter.com"><i class='bx bxl-twitter'></i></a>
+                </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name" required><br>
+                <input type="email" placeholder="Your Email" required><br>
+                <input type="tel" placeholder="Your Mobile Number" required><br>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How may i help you?" required></textarea><br>
+                <input type="submit" value="send message" class="submit"><br>
+            </form>
+        </div>
+       </section>
+
+
+           <!-- footer section -->
+        <footer class="footer">
+            <div class="attribution">
+                <p>Design with <i class='bx bx-laptop'></i> By Haywhy</p>
+            </div>
+            <div class="move-up">
+                <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <!-- Js for toggle menu -->
+         <script>
+            var navMenu = document.getElementById('navMenu');
+            function openMenu() {
+                navMenu.style.right = "0";
+            }
+
+            function closeMenu() {
+                navMenu.style.right = "-200px";
+            }
+         </script>
+</body>
+</html>
